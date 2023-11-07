@@ -25,7 +25,7 @@ function validar($usuario, $password) {
             exit();
         }
     } else {
-        echo " Usuario incorrecto >:(     ";
+        echo " Usuario incorrecto >:( ";
     }
 }
 
@@ -65,28 +65,5 @@ if (isset($_POST["crearArchivo"])) {
     }
 }
 ?>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>opciones</title>
-</head>
-<body>
-
-<form method="post">
-    <br>
-    <input type="submit" name="obtenerURL" value="Obten la url de la pagina actual"/>
-    <br>
-    <br>
-    <input type="text" name="nombreArchivo" placeholder="Nombre del archivo" />
-    <input type="submit" name="buscarArchivo" value="Buscar Archivo" />
-    <br>
-    <br>
-    <input type="text" name="nombreNuevoArchivo" placeholder="Nombre del nuevo archivo .txt" />
-    <input type="submit" name="crearArchivo" value="Crea un nuevo archivo con sus permisos y sus cosillas jeje"/>
-</form>
-
 </body>
 </html>
